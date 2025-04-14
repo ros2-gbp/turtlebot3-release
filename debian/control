@@ -1,0 +1,12 @@
+Source: ros-jazzy-turtlebot3-teleop
+Section: misc
+Priority: optional
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-turtlebot3-teleop
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-jazzy-geometry-msgs, ros-jazzy-rclpy, ros-jazzy-ros-workspace
+Description: Teleoperation node using keyboard for TurtleBot3.
