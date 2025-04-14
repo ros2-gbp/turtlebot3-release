@@ -1,0 +1,127 @@
+ros-humble-turtlebot3-node (2.2.8-1jammy) jammy; urgency=high
+
+  * Support flexible configuration of the frame_id used when publishing the topic
+  * Contributors: Hyungyu Kim
+
+ -- Pyo <pyo@robotis.com>  Thu, 10 Apr 2025 15:00:00 -0000
+
+ros-humble-turtlebot3-node (2.2.7-1jammy) jammy; urgency=high
+
+  * None
+
+ -- Pyo <pyo@robotis.com>  Wed, 26 Mar 2025 15:00:00 -0000
+
+ros-humble-turtlebot3-node (2.2.6-1jammy) jammy; urgency=high
+
+  * Made it possible to choose between using the Twist type or the TwistStamped type in cmd_vel through a parameter
+  * Contributors: Hyungyu Kim
+
+ -- Pyo <pyo@robotis.com>  Sun, 23 Mar 2025 15:00:00 -0000
+
+ros-humble-turtlebot3-node (2.2.5-1jammy) jammy; urgency=high
+
+  * None
+
+ -- Pyo <pyo@robotis.com>  Tue, 25 Feb 2025 15:00:00 -0000
+
+ros-humble-turtlebot3-node (2.2.4-1jammy) jammy; urgency=high
+
+  * None
+
+ -- Pyo <pyo@robotis.com>  Thu, 20 Feb 2025 15:00:00 -0000
+
+ros-humble-turtlebot3-node (2.2.3-1jammy) jammy; urgency=high
+
+  * None
+
+ -- Pyo <pyo@robotis.com>  Tue, 18 Feb 2025 15:00:00 -0000
+
+ros-humble-turtlebot3-node (2.2.2-1jammy) jammy; urgency=high
+
+  * Fixed a bug where the frame_id in the header of the odom_msg starts with a slash
+  * Contributors: Hyungyu Kim
+
+ -- Pyo <pyo@robotis.com>  Tue, 18 Feb 2025 15:00:00 -0000
+
+ros-humble-turtlebot3-node (2.2.1-1jammy) jammy; urgency=high
+
+  * Fixed a bug where the orientation in the odometry was incorrect
+  * Contributors: Hyungyu Kim
+
+ -- Pyo <pyo@robotis.com>  Mon, 17 Feb 2025 15:00:00 -0000
+
+ros-humble-turtlebot3-node (2.2.0-1jammy) jammy; urgency=high
+
+  * Fixed a bug where odometry was not resetting and an offset issue
+  * Contributors: Hyungyu Kim
+
+ -- Pyo <pyo@robotis.com>  Wed, 12 Feb 2025 15:00:00 -0000
+
+ros-humble-turtlebot3-node (2.1.5-1jammy) jammy; urgency=high
+
+  * ROS 2 Humble Hawksbill supported
+  * Contributors: Will Son
+
+ -- Pyo <pyo@robotis.com>  Wed, 25 May 2022 15:00:00 -0000
+
+ros-humble-turtlebot3-node (2.1.4-1jammy) jammy; urgency=high
+
+  * None
+
+ -- Pyo <pyo@robotis.com>  Mon, 07 Feb 2022 15:00:00 -0000
+
+ros-humble-turtlebot3-node (2.1.3-1jammy) jammy; urgency=high
+
+  * ROS 2 Rolling Ridley supported
+  * fix ambiguous ParameterValue calls (#748, #736)
+  * fix RViz2 Cartographer default config
+  * Contributors: m2-farzan, Will Son
+
+ -- Pyo <pyo@robotis.com>  Wed, 01 Sep 2021 15:00:00 -0000
+
+ros-humble-turtlebot3-node (2.1.2-1jammy) jammy; urgency=high
+
+  * use static param types for Galactic
+  * fix SensorState msg
+  * fix odometry bug
+  * Contributors: jhbirdchoi, Ashe Kim, Will Son
+
+ -- Pyo <pyo@robotis.com>  Tue, 06 Apr 2021 15:00:00 -0000
+
+ros-humble-turtlebot3-node (2.1.1-1jammy) jammy; urgency=high
+
+  * turtlebot3.repos updated to target correct distro
+  * galactic-devel branch created
+  * Eloquent EOL
+  * Contributors: Ashe Kim, Will Son
+
+ -- Pyo <pyo@robotis.com>  Tue, 05 Jan 2021 15:00:00 -0000
+
+ros-humble-turtlebot3-node (2.1.0-1jammy) jammy; urgency=high
+
+  * ROS 2 Foxy Fitzroy supported
+  * ROS 2 Eloquent Elusor supported
+  * Contributors: Ryan, Ashe
+
+ -- Pyo <pyo@robotis.com>  Sun, 21 Jun 2020 15:00:00 -0000
+
+ros-humble-turtlebot3-node (2.0.1-1jammy) jammy; urgency=high
+
+  * Updated the CHANGELOG and version to release binary packages
+  * Modified dependency packages
+  * Contributors: Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Wed, 04 Sep 2019 15:00:00 -0000
+
+ros-humble-turtlebot3-node (2.0.0-1jammy) jammy; urgency=high
+
+  * Supported ROS 2 Dashing Diademata
+  * Updated the CHANGELOG and version to release binary packages
+  * Fixed ROS 2 dependencies and library install #454 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/454>
+  * Fixed scan rate to 5hz #418 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/418>
+  * Initialized joint states variables #411 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/411>
+  * Contributors: Matt Hansen, Emerson Knapp, Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Mon, 19 Aug 2019 15:00:00 -0000
+
+
