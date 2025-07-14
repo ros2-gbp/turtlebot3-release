@@ -1,0 +1,12 @@
+Source: ros-jazzy-turtlebot3-example
+Section: misc
+Priority: optional
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-geometry-msgs, ros-jazzy-nav-msgs, ros-jazzy-rclpy, ros-jazzy-sensor-msgs, ros-jazzy-tf-transformations, ros-jazzy-turtlebot3-msgs, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-turtlebot3-example
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-jazzy-geometry-msgs, ros-jazzy-nav-msgs, ros-jazzy-rclpy, ros-jazzy-sensor-msgs, ros-jazzy-tf-transformations, ros-jazzy-turtlebot3-msgs, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Description: This package provides four basic examples for TurtleBot3 (i.e., interactive marker, object detection, patrol and position control).
