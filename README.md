@@ -1,3 +1,34 @@
+## turtlebot3 (kilted) - 2.3.3-1
+
+The packages in the `turtlebot3` repository were released into the `kilted` distro by running `/usr/bin/bloom-release turtlebot3 -t kilted -r kilted --edit` on `Mon, 14 Jul 2025 07:09:58 -0000`
+
+These packages were released:
+- `turtlebot3`
+- `turtlebot3_bringup`
+- `turtlebot3_cartographer`
+- `turtlebot3_description`
+- `turtlebot3_example`
+- `turtlebot3_navigation2`
+- `turtlebot3_node`
+- `turtlebot3_teleop`
+
+Version of package(s) in repository `turtlebot3`:
+
+- upstream repository: https://github.com/ROBOTIS-GIT/turtlebot3.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.3.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## turtlebot3 (jazzy) - 2.3.3-1
 
 The packages in the `turtlebot3` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release turtlebot3 -t jazzy -r jazzy --edit` on `Mon, 14 Jul 2025 07:00:57 -0000`
