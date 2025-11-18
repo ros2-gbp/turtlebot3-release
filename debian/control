@@ -1,0 +1,12 @@
+Source: ros-jazzy-turtlebot3-bringup
+Section: misc
+Priority: optional
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ros-workspace
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-turtlebot3-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-hls-lfcd-lds-driver, ros-jazzy-robot-state-publisher, ros-jazzy-rviz2, ros-jazzy-turtlebot3-description, ros-jazzy-turtlebot3-node, ros-jazzy-ros-workspace
+Description: ROS 2 launch scripts for starting the TurtleBot3
