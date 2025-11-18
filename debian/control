@@ -1,0 +1,12 @@
+Source: ros-kilted-turtlebot3-description
+Section: misc
+Priority: optional
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-urdf, ros-kilted-xacro, ros-kilted-ros-workspace
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-kilted-turtlebot3-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-urdf, ros-kilted-xacro, ros-kilted-ros-workspace
+Description: 3D models of the TurtleBot3 for simulation and visualization
