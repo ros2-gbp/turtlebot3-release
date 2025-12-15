@@ -1,0 +1,12 @@
+Source: ros-kilted-turtlebot3-bringup
+Section: misc
+Priority: optional
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ros-workspace
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-kilted-turtlebot3-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-hls-lfcd-lds-driver, ros-kilted-robot-state-publisher, ros-kilted-rviz2, ros-kilted-turtlebot3-description, ros-kilted-turtlebot3-node, ros-kilted-ros-workspace
+Description: ROS 2 launch scripts for starting the TurtleBot3
