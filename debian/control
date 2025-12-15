@@ -1,0 +1,12 @@
+Source: ros-humble-turtlebot3-node
+Section: misc
+Priority: optional
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-dynamixel-sdk, ros-humble-geometry-msgs, ros-humble-message-filters, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-rcutils, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-ros, ros-humble-turtlebot3-msgs, ros-humble-ros-workspace
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-humble-turtlebot3-node
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-dynamixel-sdk, ros-humble-geometry-msgs, ros-humble-message-filters, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-rcutils, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-ros, ros-humble-turtlebot3-msgs, ros-humble-ros-workspace
+Description: TurtleBot3 driver node that include diff drive controller, odometry and tf node
