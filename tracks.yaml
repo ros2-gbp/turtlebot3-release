@@ -74,8 +74,8 @@ tracks:
     patches: null
     release_inc: '1'
     release_repo_url: null
-    release_tag: :{version}
+    release_tag: 2.3.7
     ros_distro: kilted
     vcs_type: git
     vcs_uri: https://github.com/ROBOTIS-GIT/turtlebot3.git
-    version: :{auto}
+    version: 2.3.7
