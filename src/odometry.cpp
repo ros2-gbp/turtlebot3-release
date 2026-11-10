@@ -16,6 +16,7 @@
 
 #include "turtlebot3_node/odometry.hpp"
 
+#include <cmath>
 #include <memory>
 #include <string>
 #include <utility>
@@ -274,11 +275,11 @@ bool Odometry::calculate_odometry(const rclcpp::Duration & duration)
   if (use_imu_) {
     if (last_theta_initialized_) {
       theta = imu_angle_;
-      delta_theta = theta - last_theta;
+      delta_theta = std::remainder(theta - last_theta, 2.0 * M_PI);
     } else {
       theta = imu_angle_;
       last_theta = imu_angle_;
-      delta_theta = theta - last_theta;
+      delta_theta = 0.0;
       last_theta_initialized_ = true;
     }
   } else {
